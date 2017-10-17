@@ -88,15 +88,6 @@ delete_recursive(
     "/system/priv-app/WeatherManagerService",
     "/system/priv-app/WeatherProvider"
 );
-delete_recursive(
-    "/system/media/audio/notifications",
-    "/system/media/audio/ringtones",
-    "/system/media/audio/ui",
-    "/sdcard/Alarms",
-    "/sdcard/Notifications",
-    "/sdcard/Podcasts",
-    "/sdcard/Ringtones"
-);
 show_progress(1, 15);
 ui_print("Copying files");
 package_extract_dir("system", "/system");

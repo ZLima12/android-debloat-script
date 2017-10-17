@@ -110,13 +110,5 @@ case "$1" in
    rm -rf /system/priv-app/Vending
    rm -rf /system/priv-app/WeatherManagerService
    rm -rf /system/priv-app/WeatherProvider
-
-   rm -rf /system/media/audio/notifications
-   rm -rf /system/media/audio/ringtones
-   rm -rf /system/media/audio/ui
-   rm -rf /sdcard/Alarms
-   rm -rf /sdcard/Notifications
-   rm -rf /sdcard/Podcasts
-   rm -rf /sdcard/Ringtones
   ;;
 esac
